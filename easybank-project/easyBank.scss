@@ -1,0 +1,123 @@
+nav {
+  a {
+    padding: 10px;
+    text-decoration: none;
+  }
+  a:hover {
+    border-bottom: 2px solid hsl(136, 65%, 51%);
+  }
+}
+// button style //
+button {
+  font-size: 18px;
+  padding: 12px 32px;
+  background: linear-gradient(90deg, #25d955 0%, #4298bf 100%);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+//  start style header container //
+
+.Next-generation-digita-container {
+  width: 100%;
+  .left-container {
+    width: 400px;
+  }
+  //   right side next generation
+  .right-container {
+    .Next-generation-digital-img-one {
+      position: relative;
+      z-index: 1;
+    }
+  }
+  .Next-generation-digital-img-tow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    margin-left: 100px;
+  }
+}
+// end style header container //
+
+//   start Why-choose-Easybank
+.container-fluid-Why-choose-Easybank {
+  background-color: rgb(249, 249, 247);
+  height: 500px;
+  .Why-choose-Easybank-container {
+    .butoon-container-Why-choose-Easybank .box-one {
+      p {
+        font-size: 14px;
+        color: silver;
+      }
+    }
+  }
+}
+// end Why-choose-Easybank //
+// start Latest-Articles //
+.Latest-Articles-container {
+  .butoon-Latest-Articles {
+    .box-one {
+      p {
+        font-size: 14px;
+        color: silver;
+      }
+    }
+  }
+}
+// end Latest-Articles //
+//  start footer //
+.footer-container-fluid {
+  height: 100px;
+  background-color: rgb(33, 13, 88);
+  .lef-container-logo {
+    height: 100px;
+  }
+  .center-container-link-abut-us {
+    a {
+      text-decoration: none;
+      color: silver;
+    }
+  }
+  .center-container-link-careers {
+    a {
+      text-decoration: none;
+      color: silver;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    color: rgb(108, 111, 111);
+  }
+}
+// media query //
+@media screen and (max-width: 768px) {
+  // Why-choose-Easybank //
+  .container-fluid-Why-choose-Easybank {
+    height: 1110px;
+  }
+  //  Next-generation //
+  .container-fluid-Next-generation {
+    height: 520px;
+    .Next-generation-digita-container {
+      .right-container {
+        .Next-generation-digital-img-one {
+          img {
+            height: 250px;
+          }
+        }
+        .Next-generation-digital-img-tow {
+          img {
+            height: 250px;
+          }
+        }
+      }
+    }
+  }
+  //   footer //
+  .footer-container-fluid {
+    height: 325px;
+  }
+}
