@@ -1,5 +1,4 @@
 # Easy-Bank
-# Movies-project
 # Description
 * Bank website
 # Project Flow
