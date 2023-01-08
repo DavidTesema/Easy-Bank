@@ -1,7 +1,7 @@
 
 # Easy-Bank
 # Description
-* Bank website
+* A banking system that allows users to manage their accounts, make transactions, and view their account history.
 # Project Flow
 * Difficulties: Learn how to use SCSS
 * What was goood:
